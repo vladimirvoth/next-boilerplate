@@ -1,0 +1,13 @@
+@import 'vars';
+
+body {
+  font-family: $font-family;
+  color: $main-font-color;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 1rem 0;
+}

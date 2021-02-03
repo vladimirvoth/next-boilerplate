@@ -1,0 +1,45 @@
+@import '../styles/vars.scss';
+
+.header {
+  width: 80%;
+  margin: auto;
+  margin-top: 10px;
+
+  &__inner {
+    border-bottom: 1px solid $light-grey;
+  }
+
+  &__brand {
+    display: inline-block;
+    font-size: 1.6rem;
+  }
+
+  &__nav {
+    float: right;
+    margin-top: 25px;
+    color: $secondary-font-color;
+  }
+
+  &__navLink {
+    text-decoration: none;
+  }
+}
+
+@media (max-width: 979px) {
+  .header {
+    padding: 0px 50px;
+    text-align: center;
+
+    &__inner {
+      height: 52px;
+    }
+
+    &__brand {
+      font-size: 1.2rem;
+    }
+
+    &__nav {
+      float: none;
+    }
+  }
+}

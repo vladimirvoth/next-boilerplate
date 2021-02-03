@@ -1,0 +1,86 @@
+@import 'vars';
+
+.cover {
+  width: 800px;
+  margin: auto;
+  margin-top: 60px;
+  text-align: center;
+
+  &__heading {
+    font-size: 2rem;
+  }
+
+  &__lead {
+    width: 600px;
+    margin: auto;
+    line-height: 2rem;
+    font-size: 1.2rem;
+    color: $secondary-font-color;
+  }
+
+  &__link {
+    display: inline-block;
+    margin-top: 20px;
+    line-height: 2rem;
+    font-size: 1.2rem;
+  }
+}
+
+/* Selectors and styles affecting screens UP TO 979px (Desktop) */
+@media (max-width: 979px) {
+  .cover {
+    width: 700px;
+    margin: auto;
+    margin-top: 110px;
+    text-align: center;
+
+    &__heading {
+      font-size: 1.8rem;
+    }
+
+    &__lead {
+      width: 500px;
+      font-size: 1.1rem;
+    }
+
+    &__link {
+      font-size: 1.1rem;
+    }
+  }
+}
+
+/* Selectors and styles affecting screens UP TO 767px (Tablet) */
+@media (max-width: 767px) {
+  .cover {
+    width: 500px;
+
+    &__heading {
+      font-size: 1.4rem;
+    }
+
+    &__lead {
+      width: 400px;
+      font-size: 1rem;
+    }
+
+    &__link {
+      font-size: 1rem;
+    }
+  }
+}
+
+/* Selectors and styles affecting screens UP TO 480px (Phone) */
+@media (max-width: 480px) {
+  .cover {
+    width: 350px;
+
+    &__heading {
+      font-size: 1.4rem;
+    }
+
+    &__lead {
+      width: 300px;
+      font-size: 1rem;
+    }
+  }
+}
