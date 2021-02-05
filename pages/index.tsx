@@ -16,11 +16,10 @@ export default function Home() {
         <div className={styles.cover}>
           <img src="/next.jpg" alt="my image" width="300" />
           <h1 className={styles.cover__heading}>
-            The install worked successfully! Congratulations!
+            Congratulations! The installation worked successfully!
           </h1>
           <p className={styles.cover__lead}>
-            You are seeing this page because you have installed the Next.js
-            boilerplate successfully. You are great, keep going!
+            You are seeing this page because you have installed the Next.js Boilerplate successfully. You are doing great, keep going!
           </p>
           <Link href={{ pathname: '/nextpage' }} as="/nextpage">
             <a className={styles.cover__link}>Example for a Link</a>
